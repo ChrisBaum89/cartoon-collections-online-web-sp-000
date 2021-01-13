@@ -6,6 +6,8 @@ def roll_call_dwarves(names)
   end
 end
 
+fruits = %w[apple banana orange]
+puts "#{fruits}"
 def summon_captain_planet(calls)
   new_array = Array.new
   calls.collect do |call|
