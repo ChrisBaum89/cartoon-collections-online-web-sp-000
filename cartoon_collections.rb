@@ -13,8 +13,8 @@ def summon_captain_planet(words)
   end
 end
 
-calls = ["wind", "fire", "tree", "axe", "code"]
-#calls = ["axe", "earth", "wind", "fire"]
+#calls = ["wind", "fire", "tree", "axe", "code"] #short calls
+#calls = ["axe", "earth", "wind", "fire"] #long calls
 def long_planeteer_calls(words)
   new_array = Array.new
   words.any? do |word|
