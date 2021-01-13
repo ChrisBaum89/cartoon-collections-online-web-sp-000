@@ -25,8 +25,8 @@ end
 #puts"#{long_planeteer_calls(calls)}"
 
 
-list = %w[banana cheddar sock]
-#list = %w[ham cellphone computer]
+#list = %w[banana cheddar sock]
+list = %w[ham cellphone computer]
 def find_the_cheese(list)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
