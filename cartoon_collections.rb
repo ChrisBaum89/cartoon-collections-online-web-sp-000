@@ -16,7 +16,7 @@ end
 #calls = ["wind", "fire", "tree", "axe", "code"]
 calls = ["axe", "earth", "wind", "fire"]
 def long_planeteer_calls(words)
-  new_array = Array.new_array
+  new_array = Array.new
   words.any? do |word|
     word.count > 4
   end
