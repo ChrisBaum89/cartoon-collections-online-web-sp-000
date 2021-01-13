@@ -34,7 +34,7 @@ def find_the_cheese(list)
     if item == cheese_types[0] || item == cheese_types[1] || item == cheese_types[2]
       return item
     end
-    nil
   end
+  nil
 end
 #puts "#{find_the_cheese(list)}"
