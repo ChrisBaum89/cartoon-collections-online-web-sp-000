@@ -31,7 +31,7 @@ def find_the_cheese(list)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   list.collect do |item|
-    if i == cheese_types[0] || i == cheese_types[1] || i == cheese_types[2]
+    if item == cheese_types[0] || item == cheese_types[1] || item == cheese_types[2]
       return item
     end
   end
