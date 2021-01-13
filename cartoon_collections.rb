@@ -21,7 +21,8 @@ def long_planeteer_calls(words)
     word.count > 4
   end
 end
-long_planeteer_calls(calls)
+#long_planeteer_calls(calls)
+puts"#{long_planeteer_calls(calls)}
 
 def find_the_cheese# code an argument here
   # the array below is here to help
