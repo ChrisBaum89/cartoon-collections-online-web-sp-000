@@ -33,7 +33,7 @@ def find_the_cheese(list)
   list.collect do |i|
     i == cheese_types[0] || i == cheese_types[1] || i == cheese_types[2]
     if true
-      i
+      return i
     end
   end
 end
