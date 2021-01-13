@@ -10,8 +10,8 @@ fruits = %w[apple banana orange]
 puts "#{fruits}"
 def summon_captain_planet(words)
   new_array = Array.new
-  words.collect do |call|
-    new_array << "#{call.capitalize}!"
+  words.collect do |word|
+    new_array << "#{word.capitalize}!"
   end
   puts "#{new_array}"
 end
