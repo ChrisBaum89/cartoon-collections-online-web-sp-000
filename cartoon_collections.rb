@@ -13,12 +13,15 @@ def summon_captain_planet(words)
   end
 end
 
+#calls = ["wind", "fire", "tree", "axe", "code"]
+calls = ["axe", "earth", "wind", "fire"]
 def long_planeteer_calls(words)
   new_array = Array.new_array
   words.any? do |word|
     word.count > 4
   end
 end
+long_planeteer_calls(calls)
 
 def find_the_cheese# code an argument here
   # the array below is here to help
