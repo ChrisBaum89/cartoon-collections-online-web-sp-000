@@ -30,8 +30,10 @@ list = %w[banana cheddar sock]
 def find_the_cheese(list)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  list.collect do |i|
-    i == cheese_types[0] || i == cheese_types[1] || i == cheese_types[2]
+  list.collect do |item|
+    if i == cheese_types[0] || i == cheese_types[1] || i == cheese_types[2]
+      return item
+    end
   end
 end
 puts "#{find_the_cheese(list)}"
