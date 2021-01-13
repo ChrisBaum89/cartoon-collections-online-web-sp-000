@@ -11,7 +11,7 @@ fruits = %w[apple banana orange]
 def summon_captain_planet(words)
   new_array = Array.new
   words.collect do |word|
-    new_array << "#{word.capitalize}!"
+    new_array = "#{word.capitalize}!"
   end
   #puts "#{new_array}"
 end
