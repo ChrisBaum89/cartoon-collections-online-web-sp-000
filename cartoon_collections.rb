@@ -15,7 +15,7 @@ def summon_captain_planet(words)
   end
   puts "#{new_array}"
 end
-summon_captain_planet(calls)
+summon_captain_planet(words)
 
 def long_planeteer_calls# code an argument here
   # Your code here
