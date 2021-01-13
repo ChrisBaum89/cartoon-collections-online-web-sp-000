@@ -26,7 +26,7 @@ end
 
 
 #list = %w[banana cheddar sock]
-list = %w[ham cellphone computer]
+#list = %w[ham cellphone computer]
 def find_the_cheese(list)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
@@ -36,4 +36,4 @@ def find_the_cheese(list)
     end
   end
 end
-puts "#{find_the_cheese(list)}"
+#puts "#{find_the_cheese(list)}"
