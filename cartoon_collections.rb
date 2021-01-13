@@ -27,7 +27,7 @@ end
 def find_the_cheese(list)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  list.any? do |i|
+  list.first do |i|
     i == cheese_types[1] || i == cheese_types[2] || i == cheese_types[3]
   end
 end
